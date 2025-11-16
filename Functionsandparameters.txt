@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+// 1. Modern Function Definition: Explicitly define parameter types (int x, int y).
+int add(int x, int y) {
+    
+    int c = x + y;
+    int d = x - y; // 'd' is calculated but not used, which is fine.
+    
+    return c;
+}
+
+// 2. Standard main function: Use 'int main()' and 'return 0;'.
+int main() {
+    
+    int a = 10;
+    int b = 20;
+    
+    printf("First result: %d\n", add(a, b));
+    
+    // 3. Error Correction: Use the declared variables 'a' and 'b' 
+    // instead of 'x' and 'y', as 'x' and 'y' are only local to the 'add' function.
+    printf("Second result: %d\n", add(a, b));
+    
+    return 0; 
+}
