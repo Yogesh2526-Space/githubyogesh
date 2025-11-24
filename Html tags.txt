@@ -1,0 +1,45 @@
+<h1>- heading tag
+<p>- paragraph tag
+<pre>- it will print the exact u type
+<body>- body of web pages
+<head>- head of web pages
+<a href "link">content</a>- anchor tag , href- attribute
+<img src="link">
+<alt> when image is does not displays
+<hr> a horizontal line
+<br> new line 
+url- universal resource locator -> Absolute url, Relative url.
+
+STYLING ATTRIBUTES 
+
+<h1 style="color:green;"> - element color
+<body style="backgroundcolor:green;> - background color
+<img style="border: 3px solid brown; font-family:fontstyle;">- img style
+<i>- italic
+<b>- bold
+<strong>
+<mark>-highlight
+<del>- striking content
+<ins>- inserting content
+<sup>- superlative powering
+<sub>- subscript bellowing 
+<q>- content in quotes
+link <target="_blank">- new tab
+<a href="mailto:mailid">
+<link rel="icon" type"image/x-icon" href="location">- image on title
+<table>
+<thead> -head
+<tr> -row
+<td>- data
+col span="2" 
+<ul>- unordered list
+<li>- ordered list
+<iframe src=""> adding another website in out own website.
+<form>- input from user
+<label>- what your are going to get
+<input type="text">
+<input type="radio">
+
+
+
+ 
