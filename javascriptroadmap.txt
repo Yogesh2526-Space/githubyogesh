@@ -1,0 +1,277 @@
+JAVASCRIPT ROADMAP — 2026
+
+This roadmap is a practical, year-agnostic plan for becoming a strong, job-ready JavaScript developer in 2026. It covers fundamentals, modern language features, frameworks, ecosystem tools, testing, deployment, performance, security, career tips, and suggested projects and timelines. Use it as a checklist and adapt the pace to your experience.
+
+---
+
+1. GET THE BASICS (2–6 weeks)
+
+* JavaScript language fundamentals
+
+  * Variables (let, const), data types (primitive and reference)
+  * Operators, expressions, statements
+  * Control flow: if-else, switch, loops (for, while, for..of)
+  * Functions: declarations, expressions, arrow functions
+  * Scope, hoisting, closures
+  * Basic DOM API: selecting elements, handling events, manipulating DOM
+  * Console debugging, breakpoints
+* Practical exercises
+
+  * Build small scripts (todo list, tip calculator, form validator)
+  * Solve algorithmic challenges (arrays, strings, objects)
+
+---
+
+2. MODERN JAVASCRIPT & ES NEXT (2–4 weeks)
+
+* ES6+ features to master
+
+  * let/const, template literals, destructuring
+  * Spread/rest operators, default parameters
+  * Promises, async/await, fetch API
+  * Modules (import/export)
+  * Classes and prototypes
+  * Map, Set, WeakMap, WeakSet
+* Stay aware of newer proposals (optional reading)
+
+  * Temporal, pattern matching, records & tuples (if available in environment)
+
+---
+
+3. TYPE SYSTEM: TYPESCRIPT (4–8 weeks)
+
+* Why TypeScript
+
+  * Strong typing, better tooling, fewer runtime bugs, industry demand
+* Core concepts
+
+  * Types (primitive, union, intersection), interfaces, type aliases
+  * Generics, utility types, type narrowing, discriminated unions
+  * tsconfig, compiler options, declaration files
+* Integrate with projects
+
+  * Convert a small project to TypeScript
+  * Use with React/Node projects
+
+---
+
+4. FRONTEND FRAMEWORKS (React focus, 6–12 weeks)
+
+* React essentials
+
+  * JSX, components (functional + hooks), props, state
+  * useEffect, useMemo, useCallback, custom hooks
+  * Context API + patterns
+  * Component composition and patterns
+* Routing + data fetching
+
+  * React Router or framework router
+  * SWR / React Query / TanStack Query for remote data
+* Component libraries and UI systems
+
+  * Tailwind CSS basics (utility-first) or CSS-in-JS (styled-components, emotion)
+  * Headless UI, shadcn/ui, Radix for accessible primitives
+* Optional alternatives (choose based on job market / interest)
+
+  * Vue 3 (Composition API), Svelte, SolidJS
+
+---
+
+5. STATE MANAGEMENT & ARCHITECTURE (2–4 weeks)
+
+* Local vs global state
+
+  * lifting state, context, prop drilling
+* Libraries & patterns
+
+  * Redux Toolkit fundamentals (slices, RTK Query)
+  * Zustand, Jotai, MobX (lightweight alternatives)
+* App architecture
+
+  * Feature folders, separation of concerns, component boundaries
+  * Atomic design & design systems
+
+---
+
+6. BUILD TOOLS & BUNDLERS (2–3 weeks)
+
+* Understand the ecosystem
+
+  * Node.js + npm/yarn/pnpm
+  * Bundlers: Vite (recommended), Webpack, esbuild, Rollup
+  * Linters and formatters: ESLint, Prettier
+* Dev ergonomics
+
+  * Source maps, HMR (hot module replacement), environment variables
+  * Commit hooks with Husky, lint-staged
+
+---
+
+7. BACKEND WITH NODE.JS (4–8 weeks)
+
+* Core Node.js concepts
+
+  * Modules, event loop, streams, buffers
+  * File system, child processes, environment
+* Web servers
+
+  * Express.js basics (routing, middleware), Fastify as alternative
+* Databases
+
+  * Relational (Postgres) fundamentals, ORMs (Prisma)
+  * NoSQL (MongoDB) basics and drivers / Mongoose
+* Authentication & Authorization
+
+  * Sessions, JWTs, OAuth basics
+* REST vs GraphQL
+
+  * Build sample REST API and GraphQL API (Apollo Server or GraphQL Yoga)
+
+---
+
+8. DEPLOYMENT & INFRASTRUCTURE (2–4 weeks)
+
+* Containers & CI/CD
+
+  * Docker basics: Dockerfile, image, container, volumes
+  * Continuous integration: GitHub Actions examples for build/test/deploy
+* Hosting platforms
+
+  * Frontend: Vercel, Netlify
+  * Backend: Render, Fly.io, DigitalOcean, AWS (Elastic Beanstalk / ECS / Lambda)
+* Databases & managed services
+
+  * PlanetScale, Supabase, Neon, AWS RDS
+* Observability
+
+  * Logging, basic monitoring, Sentry for error tracking
+
+---
+
+9. TESTING & QUALITY (2–4 weeks)
+
+* Unit testing
+
+  * Jest fundamentals (mocks, snapshots)
+  * Testing-library for React (user-focused tests)
+* Integration and E2E
+
+  * Playwright or Cypress for end-to-end tests
+* Contract testing & type-safety between client and server
+
+  * Use ts-proto or type-safe clients
+
+---
+
+10. PERFORMANCE, ACCESSIBILITY & SECURITY (ongoing)
+
+* Performance
+
+  * Web vitals, Lighthouse, code splitting, lazy loading, image optimization
+  * Caching strategies, CDN, HTTP headers, compression
+* Accessibility (a11y)
+
+  * Semantic HTML, ARIA roles, keyboard navigation, color contrast
+  * axe-core and automated checks
+* Security
+
+  * OWASP top 10 overview, XSS, CSRF, CORS, SQL/NoSQL injection
+  * Secure headers, rate limiting, input validation
+
+---
+
+11. ADVANCED TOPICS (pick based on career goals)
+
+* Mobile/web hybrid
+
+  * React Native, Expo
+* Server-side rendering & meta-frameworks
+
+  * Next.js (pages vs app router), Remix, Nuxt (Vue)
+* Edge computing
+
+  * Cloudflare Workers, Vercel Edge Functions
+* WebAssembly basics
+* Real-time systems
+
+  * WebSockets, Socket.io, server-sent events
+* Microservices & event-driven architecture (Kafka, NATS)
+
+---
+
+12. SOFT SKILLS, ARCHITECTURE & JOB PREP
+
+* System design basics
+
+  * Scalability, caching, CAP theorem, queues
+* Code reviews, reading open-source code
+* Technical communication, writing clear PRs and docs
+* Interview prep
+
+  * Algorithms (array, string, trees), complexity analysis
+  * Practical frontend and backend take-home projects
+
+---
+
+13. 6-MONTH LEARNING PLAN (Example)
+    Month 1: JavaScript fundamentals + ES6
+    Month 2: DOM, small projects, Git, basic algorithms
+    Month 3: TypeScript + React basics
+    Month 4: Advanced React (hooks, router), state management
+    Month 5: Node.js backend, databases, REST API
+    Month 6: Deployment, testing, build a full-stack project
+
+---
+
+14. PROJECT IDEAS (build and showcase these)
+
+* Single-page apps
+
+  * Task manager with local DB + sync
+  * Expense tracker with charts
+* Full-stack apps
+
+  * Social feed with user auth, likes, comments
+  * E-commerce checkout simulation (cart, payments mock)
+* Real-time app
+
+  * Chat app with presence indicators and typing status
+* Mini open-source library
+
+  * Tiny UI component, utility library, or CLI tool
+
+---
+
+15. RESOURCES & LEARNING HABITS
+
+* Docs and references
+
+  * MDN Web Docs, ECMAScript specs, TypeScript docs
+* Practical learning
+
+  * Build projects, contribute to open-source, read source code
+* Curated courses & books (pick up-to-date sources)
+
+  * "You Don’t Know JS" (book series), official framework docs
+* Keep a learning journal, track progress, publish projects on GitHub
+
+---
+
+16. CHECKLIST BEFORE APPLYING TO JOBS
+
+* Portfolio with 3–6 real projects (hosted & source code)
+* Clean, typed code examples (TypeScript where possible)
+* Tests and CI configured for at least 1 project
+* Resume + LinkedIn with project links and short descriptions
+* Prepared for system design and coding interviews
+
+---
+
+Notes:
+
+* The JavaScript ecosystem evolves quickly. Always check the latest docs for frameworks and tools. Focus on fundamentals and transferable concepts (async patterns, component architecture, types).
+* Choose depth over breadth: get deeply proficient in one frontend framework (commonly React) and one backend approach (Node + Express + a DB) before exploring many alternatives.
+
+---
+
+License: Use and adapt this roadmap freely. Good luck — build stuff, fail fast, iterate fast.
