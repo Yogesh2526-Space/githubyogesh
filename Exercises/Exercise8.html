@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoki</title>
+</head>
+<body>
+    <h1 id="hi">It's me</h1>
+    <div id="box">
+
+    </div>
+</body>
+<script>
+    let element = document.getElementsByTagName("h1");
+    element.textContent += "Javascript";
+    element.innerHTML = "<p>Hello</p>";
+    element.className = "bodyClass";
+    element.style.color = "red";
+    console.log(element);
+</script>
+</html>
