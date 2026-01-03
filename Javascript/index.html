@@ -1,0 +1,29 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listener</title>
+</head>
+<body>
+    <button id="y">Aswin</button>
+</body>
+<script>
+    let btn = document.getElementById("y");
+
+    btn.addEventListener("click", (event)=>{
+        btn.textContent = "Yogesh";
+        console.log("Brother")
+    })
+    btn.addEventListener("mouseover", (event)=>{
+        btn.textContent = "Renuka";
+        console.log("Mother");
+    })
+    btn.addEventListener("mouseout", (event)=>{
+        btn.textContent = "Durai";
+        console.log("Father");
+    })
+</script>
+</html>  
+
+
