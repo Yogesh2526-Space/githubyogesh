@@ -18,8 +18,6 @@ console.log(user1.age);   // What will be the output?
 console.log(user2.age);
 
 
----
-
 // Constant Object (const)
 
 //Description (3 lines):
@@ -37,8 +35,6 @@ student.marks = 90;       // Allowed
 
 console.log(student);
 
-
----
 
 //Garbage Collection
 
@@ -58,11 +54,7 @@ temp = null;
 // At this point, the object is eligible for garbage collection
 
 
----
-
 // Constructor Function
-
-Description (3 lines):
 //A constructor function is used to create multiple similar objects.
 //The new keyword creates a new object and assigns this.
 //It helps organize object creation logically.
@@ -81,8 +73,6 @@ let emp2 = new Employee("B", 40000);
 console.log(emp1.name, emp1.salary);
 console.log(emp2.name, emp2.salary);
 
-
----
 
 // this Keyword
 
